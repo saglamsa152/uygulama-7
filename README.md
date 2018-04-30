@@ -1,0 +1,39 @@
+# uygulama-7
+<html>
+<head>
+<script language="javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+<form name="form1"> 
+<input type="text" name="TxtSayi" id="dizi"/> 
+
+<input type="Button" value="Sayıyı Diziye Ekle" name="SayiEkle" onclick="ekle()" />
+<input type="Button" value="Diziyi Yazdır" name="DiziYaz" onclick="yaz()" />
+</form>
+</body>
+</html>
