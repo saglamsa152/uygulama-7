@@ -2,26 +2,30 @@
 <head>
 <script language="javascript">
 
- var sayilar =  new  Array ();
- var i = 0 , a = 0 , s = 0 , adet = 0 ;
-  
- var btnekle = belge . getElementById ( " Ekle " );
- btnekle . onclick = işlev ()
-var sayilar [i] = document.getElementById ("ornekGiris").
- ornekDizi.push (deger);
- window.alert ("Sayıyı Diziye Eklediniz");
- 
- var btnyaz = document.getElementById ("Yaz");
-btnekle.onclick = işlev ()
- için (a = i, a> = i, a ++)
+  var i = 0 ;  
+ var sayilar = new Array ( 5 );   
+  var hesapla = 0 ;  
+ var adet;  
+ var ortalama;  
+ function ekle ()   
    {
- belge . yazmak ( sayılar . katıl ( " , " ));     
-   s = a + s;
-   adet = adet + 1 ;
- }
- s = s / adet;
- belge . yaz (lar);  
-  
+      
+ : Var sayi1 = parseInt ( pencere . Belge . Formları . Form1 . TxtSayi . Değeri );	  
+ ise (i < 5 )      
+         {sayılar [i] = sayi1;
+          i + = 1 ;  uyarı ( " Sayı Eklendi " );
+ belge . formlar . form1 . TxtSayi . değer = " " ;		 
+ belge . formlar . form1 . TxtSayi . odak ();		 
+ 		}
+ başka uyarı ( " Dizi Dolu " );       
+   }
+ işlev yaz ()   
+   {
+ Için (i = 0 ; i < 5 i ++ )   belgesi . yaz (sayilar [i] + " , " );    
+     hesapla = hesapla + i;
+   }
+   ortalama = hesapla / 5 ;
+ belge . yaz (orta);  
 
 
 
